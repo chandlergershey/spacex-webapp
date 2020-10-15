@@ -17,8 +17,8 @@ const Model = () => {
 const Lights = () => {
   return (
     <>
-    <ambientLight intensity={0.02} />
-    <directionalLight position={[10,10,5]} intensity={1}/>
+    <ambientLight intensity={0.025} />
+    <directionalLight position={[10,10,5]} intensity={1.1}/>
     </>
   )
 }
@@ -39,7 +39,7 @@ const HTMLContent = () => {
         </mesh>
         <Html fullscreen>
           <div className='container'>
-            <h1 className='title'>SpaceX</h1>
+            <h1 className='title'>Join the mission.</h1>
           </div>
         </Html>
       </group>
@@ -49,8 +49,9 @@ const HTMLContent = () => {
 
 export default function App() {
   return (
+    
     <>
-      <Header />
+      {/* <Header /> */}
       <Canvas colorManagement camera={{ position: [0, 0, 120], fov: 70}}>
         <Lights />
         <Suspense fallback={null}>

@@ -8,8 +8,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #000000;
+  background: #00000000;
+  background-image: url(./space.jpg);
+  background-size: cover;
   transition: 0.4s ease-in-out;
+
+  /* Add the blur effect *//**/
+  // filter: blur(8px);
+  // -webkit-filter: blur(8px);
+  
 }
 
 html,
@@ -95,6 +102,9 @@ header {
   @media (max-width: 1440px) {
     font-size: 6rem;
   }
+  text-shadow: 1px 1px 10px #fff, 1px 1px 1px #ccc;
+  text-align: center;
+  opacity: .8;
 }
 
 .loading {
