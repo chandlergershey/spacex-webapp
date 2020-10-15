@@ -4,11 +4,11 @@ export default function Header() {
   return (
     <header>
       <div className='header-inner'>
-        <div className='logo'>CHAIR.</div>
+        <div className='logo'>SPACEX</div>
         <nav>
           <ul>
             <li>
-              <a href='/'>discover</a>
+              <a href='/'>Launches</a>
             </li>
             <li>
               <a href='/'>products</a>
@@ -20,7 +20,7 @@ export default function Header() {
               <a href='/'>reach</a>
             </li>
             <li className='btn'>
-              <a href='/'>order</a>
+              <a href='/'>Sign In</a>
             </li>
           </ul>
         </nav>
